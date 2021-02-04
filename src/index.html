@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
     <title>Switch to Signal — Profile picture generator</title>
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/fonts.scss" />
+    <link rel="stylesheet" href="./css/main.scss" />
   </head>
   <body>
     <div id="root">
@@ -27,13 +27,13 @@
         <a
           title="Invert colours"
           href="#"
-          class="switch"
+          class="button switch"
           @click.prevent="flipColors"
         ></a>
         <a
           title="Download image"
           href="#"
-          class="download"
+          class="button download"
           @click.prevent="downloadImage"
         >
           <svg

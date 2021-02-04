@@ -1,3 +1,11 @@
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #ececec;
   font-family: "Inter";
@@ -5,14 +13,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #1b1b1b;
-}
-
-body,
-#root {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
 }
 
 #root {
@@ -33,9 +33,12 @@ strong {
   font-weight: 600;
 }
 
-.image {
-  margin: 1em;
-  display: block;
+p {
+  line-height: 1.5em;
+  font-size: 0.8em;
+  padding: 0 2em;
+  z-index: 1;
+  position: relative;
 }
 
 .image,
@@ -46,27 +49,21 @@ strong {
   max-height: 20em;
 }
 
+.image {
+  margin: 1em;
+  display: block;
+  position: relative;
+}
+
 #picture {
   border-radius: 20em;
   user-select: none;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.08);
-}
 
-text {
-  pointer-events: all;
-  cursor: pointer;
-}
-
-p {
-  line-height: 1.5em;
-  font-size: 0.8em;
-  padding: 0 2em;
-  z-index: 1;
-  position: relative;
-}
-
-.image {
-  position: relative;
+  text {
+    pointer-events: all;
+    cursor: pointer;
+  }
 }
 
 #canvas {
@@ -77,40 +74,41 @@ p {
   height: 200px;
 }
 
-.upload,
-.upload .camera {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.upload {
+  &,
+  .camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &,
+  input {
+    width: 13em;
+    height: 13em;
+    cursor: pointer;
+  }
+
+  input {
+    opacity: 0;
+  }
+
+  .camera {
+    width: 3em;
+    height: 3em;
+    opacity: 0;
+    transition: opacity 0.15s linear;
+    pointer-events: none;
+  }
+
+  &:hover .camera,
+  .camera.default {
+    opacity: 0.8;
+  }
 }
 
-.upload .camera {
-  width: 3em;
-  height: 3em;
-  opacity: 0;
-  transition: opacity 0.15s linear;
-  pointer-events: none;
-}
-
-.camera.default,
-.upload:hover .camera {
-  opacity: 0.8;
-}
-
-.upload,
-.upload input {
-  width: 13em;
-  height: 13em;
-  cursor: pointer;
-}
-
-.upload input {
-  opacity: 0;
-}
-
-.switch,
-.download {
+.button {
   width: 1.5em;
   height: 1.5em;
   position: absolute;
@@ -125,16 +123,16 @@ p {
   left: 0;
   background: var(--color-background);
   border: 2px solid var(--color-accent);
-}
 
-.switch::before {
-  content: "";
-  display: block;
-  background: var(--color-accent);
-  position: absolute;
-  border-radius: 100%;
-  width: 1em;
-  height: 1em;
+  &:before {
+    content: "";
+    display: block;
+    background: var(--color-accent);
+    position: absolute;
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+  }
 }
 
 .download {
@@ -144,21 +142,23 @@ p {
 }
 
 .ad {
-  background: red;
   max-width: 90vw;
   max-height: calc((5 / 39) * 90vw);
 }
 
-.github-corner svg {
-  transition: color 0.1s linear;
-}
+.github-corner {
+  svg {
+    transition: color 0.1s linear;
+  }
+  &:hover {
+    .octo-arm {
+      animation: octocat-wave 560ms ease-in-out;
+    }
 
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-.github-corner:hover svg {
-  color: black !important;
+    svg {
+      color: black !important;
+    }
+  }
 }
 
 @keyframes octocat-wave {
