@@ -4,16 +4,23 @@ body {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  display: flex;
   color: #1b1b1b;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+}
+
+body,
+#root {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#root {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -22,17 +29,25 @@ a {
   text-decoration: none;
 }
 
-b {
+strong {
   font-weight: 600;
 }
 
-#picture {
+.image {
   margin: 1em;
+  display: block;
+}
+
+.image,
+#picture {
+  width: 80vw;
+  height: 80vw;
+  max-width: 20em;
+  max-height: 20em;
+}
+
+#picture {
   border-radius: 20em;
-  width: 20em;
-  height: 20em;
-  flex-grow: 0;
-  flex-shrink: 0;
   user-select: none;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.08);
 }
@@ -42,8 +57,12 @@ text {
   cursor: pointer;
 }
 
-.help {
+p {
+  line-height: 1.5em;
   font-size: 0.8em;
+  padding: 0 2em;
+  z-index: 1;
+  position: relative;
 }
 
 .image {
@@ -95,16 +114,15 @@ text {
   width: 1.5em;
   height: 1.5em;
   position: absolute;
-  bottom: 1em;
+  bottom: 0;
   display: flex;
-  left: 50%;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .switch {
-  transform: translate(calc(-50% - 10rem));
+  left: 0;
   background: var(--color-background);
   border: 2px solid var(--color-accent);
 }
@@ -120,9 +138,15 @@ text {
 }
 
 .download {
-  transform: translate(calc(-50% + 10rem));
+  right: 0;
   background: #fff;
   border: 2px solid #3a76f0;
+}
+
+.ad {
+  background: red;
+  max-width: 90vw;
+  max-height: calc((5 / 39) * 90vw);
 }
 
 .github-corner svg {
