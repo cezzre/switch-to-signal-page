@@ -5,8 +5,8 @@
   "main": "dist/index.html",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "rm -rf dist && parcel build src/index.html --public-url ./",
-    "deploy": "cp CNAME dist/ && gh-pages -d dist"
+    "build": "rm -rf dist && parcel build src/index.html --no-cache --public-url ./ && cp CNAME dist/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
