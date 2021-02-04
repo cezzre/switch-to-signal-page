@@ -190,6 +190,23 @@
           class="octo-body"
         ></path></svg
     ></a>
+    <iframe
+      src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220x8b73aF1A707eD9f5B489D662684474806Cc48d96%22%2C%22whitelistedTokens%22%3A%5B%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmWh33ySjHUiBihfX9urU59bzLtUEyFq723zQ1qiDR1g7g%22%7D%7D"
+      width="468"
+      height="60"
+      scrolling="no"
+      frameborder="0"
+      style="border: 0;"
+      onload="window.addEventListener('message', function(ev) {
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}
+		}
+	}, false)"
+    ></iframe>
     <script src="./ts/main.ts"></script>
   </body>
 </html>

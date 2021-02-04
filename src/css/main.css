@@ -27,6 +27,7 @@ b {
 }
 
 #picture {
+  margin: 1em;
   border-radius: 20em;
   width: 20em;
   height: 20em;
@@ -43,7 +44,6 @@ text {
 
 .help {
   font-size: 0.8em;
-  padding: 2rem;
 }
 
 .image {
@@ -95,7 +95,7 @@ text {
   width: 1.5em;
   height: 1.5em;
   position: absolute;
-  bottom: 0;
+  bottom: 1em;
   display: flex;
   left: 50%;
   border-radius: 100%;
