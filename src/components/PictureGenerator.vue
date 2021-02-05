@@ -1,5 +1,5 @@
 <template>
-  <div class="image" :style="getCSSVars()">
+  <div class="image" :style="cssVars">
     <a
       title="Invert colours"
       href="#"
@@ -151,13 +151,15 @@ export default defineComponent({
       isDefaultImage: true,
     };
   },
-  methods: {
-    getCSSVars: function () {
+  computed: {
+    cssVars(): Record<string, string> {
       return {
         "--color-accent": this.colorAccent,
         "--color-background": this.colorBackground,
       } as any;
     },
+  },
+  methods: {
     flipColors: function () {
       const { colorBackground, colorAccent } = this;
       this.colorBackground = colorAccent;
