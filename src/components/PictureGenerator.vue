@@ -100,7 +100,6 @@
           :fill="colorAccent"
           class="text"
           width="1000"
-          :title="$t('image.customiseText')"
         >
           <textPath href="#top">
             {{ textTop }}
@@ -117,7 +116,6 @@
           :fill="colorAccent"
           class="text"
           width="1000"
-          :title="$t('image.customiseText')"
         >
           <textPath href="#bottom">
             {{ textBottom }}
