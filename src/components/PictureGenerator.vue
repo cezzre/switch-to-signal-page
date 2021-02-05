@@ -154,10 +154,7 @@ export default defineComponent({
       colorAccent: "#3A76F0",
       colorBackground: "#FFFFFF",
       imageData: defaultImage,
-      isDefaultImage: true,
-      mainSvgAttributes: {
-        "xmlns:xlink": "http://www.w3.org/1999/xlink",
-      },
+      isDefaultImage: true
     };
   },
   methods: {
@@ -243,14 +240,6 @@ export default defineComponent({
     pointer-events: all;
     cursor: pointer;
   }
-}
-
-#canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 200px;
 }
 
 .upload {
