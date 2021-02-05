@@ -1,13 +1,13 @@
 <template>
   <div class="image" :style="cssVars">
     <a
-      title="Invert colours"
+      :title="$t('image.invertColorsButton')"
       href="#"
       class="button switch"
       @click.prevent="flipColors"
     ></a>
     <a
-      title="Download image"
+      :title="$t('image.downloadImageButton')"
       href="#"
       class="button download"
       @click.prevent="downloadImage"
@@ -30,7 +30,12 @@
       </svg>
     </a>
     <div class="upload">
-      <input type="file" @change="useImage" accept="image/*" />
+      <input
+        type="file"
+        @change="useImage"
+        accept="image/*"
+        :title="$t('image.chooseCustomImage')"
+      />
       <svg
         class="camera"
         :class="{ default: isDefaultImage === true }"
@@ -95,6 +100,7 @@
           :fill="colorAccent"
           class="text"
           width="1000"
+          :title="$t('image.customiseText')"
         >
           <textPath href="#top">
             {{ textTop }}
@@ -111,6 +117,7 @@
           :fill="colorAccent"
           class="text"
           width="1000"
+          :title="$t('image.customiseText')"
         >
           <textPath href="#bottom">
             {{ textBottom }}
@@ -124,8 +131,8 @@
           x="25"
           :fill="colorAccent"
         >
-          <tspan x="25" dy="50">Create yours</tspan>
-          <tspan x="25" dy="50">on signal.cezz.re</tspan>
+          <tspan x="25" dy="50">{{ $t("image.topCopy") }}</tspan>
+          <tspan x="25" dy="50">{{ $t("image.bottomCopy") }}</tspan>
         </text>
       </g>
     </svg>
@@ -143,8 +150,8 @@ export default defineComponent({
   name: "PictureGenerator",
   data() {
     return {
-      textTop: "Download Signal",
-      textBottom: "on signal.org",
+      textTop: this.$t("image.topText"),
+      textBottom: this.$t("image.bottomText"),
       colorAccent: "#3A76F0",
       colorBackground: "#FFFFFF",
       imageData: defaultImage,
@@ -166,13 +173,16 @@ export default defineComponent({
       this.colorAccent = colorBackground;
     },
     editTextTop: function () {
-      const textTop = prompt("Edit top text", this.textTop);
+      const textTop = prompt(this.$t("image.editTextTop"), this.textTop);
       if (textTop) {
         this.textTop = textTop;
       }
     },
     editTextBottom: function () {
-      const textBottom = prompt("Edit bottom text", this.textBottom);
+      const textBottom = prompt(
+        this.$t("image.editTextBottom"),
+        this.textBottom,
+      );
       if (textBottom) {
         this.textBottom = textBottom;
       }
@@ -189,7 +199,7 @@ export default defineComponent({
         reader.readAsDataURL(target.files[0]);
       }
     },
-    downloadImage: async () => {
+    downloadImage: async function () {
       const svg = document.querySelector("#picture");
 
       if (!svg) {
@@ -210,7 +220,7 @@ export default defineComponent({
         const pngUrl = URL.createObjectURL(blob);
         var download = document.createElement("a");
         download.href = pngUrl;
-        download.download = "MyNewProfilePicture.png";
+        download.download = this.$t("image.imageName") + ".png";
         download.click();
       });
     },

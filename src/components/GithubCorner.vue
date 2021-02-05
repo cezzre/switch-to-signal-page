@@ -3,8 +3,8 @@
     href="https://github.com/cezzre/switch-to-signal-page"
     class="github-corner"
     target="_blank"
-    title="View source on GitHub"
-    aria-label="View source on GitHub"
+    :title="$t('viewSource')"
+    :aria-label="$t('viewSource')"
   >
     <svg
       preserveAspectRatio="xMidYMid meet"
