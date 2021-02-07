@@ -1,4 +1,6 @@
 <template>
+  <LanguageSelect />
+
   <p>
     <span v-html="$t('helpTheWorld')"></span>
     <br />
@@ -20,12 +22,14 @@
 import GithubCorner from "./components/GithubCorner.vue";
 import PictureGenerator from "./components/PictureGenerator.vue";
 import { defineComponent } from "vue";
+import LanguageSelect from "./components/LanguageSelect.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     GithubCorner,
     PictureGenerator,
+    LanguageSelect,
   },
 });
 </script>

@@ -15,6 +15,6 @@ _Photos by [Jamie Street](https://unsplash.com/@jamie452) (dog), [Siem van Woerk
 
 ## Credits
 
-- Built with [Vue](https://github.com/vuejs/vue), [Vue-i18n](https://github.com/kazupon/vue-i18n), [Typescript](https://github.com/microsoft/TypeScript), [SASS](https://github.com/sass/sass) and [Canvg](https://github.com/canvg/canvg).
+- Built with [Vue](https://github.com/vuejs/vue), [Vue-i18n](https://github.com/kazupon/vue-i18n), [ISO-639-1](https://github.com/meikidd/iso-639-1), [Typescript](https://github.com/microsoft/TypeScript), [SASS](https://github.com/sass/sass) and [Canvg](https://github.com/canvg/canvg).
 - Fonts by [Inter](https://github.com/rsms/inter).
 - Icons by [Feather](https://github.com/feathericons/feather).

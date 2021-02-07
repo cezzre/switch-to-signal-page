@@ -157,11 +157,20 @@ export default defineComponent({
     };
   },
   computed: {
+    locale(): string {
+      return this.$i18n.locale;
+    },
     cssVars(): Record<string, string> {
       return {
         "--color-accent": this.colorAccent,
         "--color-background": this.colorBackground,
       } as any;
+    },
+  },
+  watch: {
+    locale: function () {
+      this.textTop = this.$t("image.topText");
+      this.textBottom = this.$t("image.bottomText");
     },
   },
   methods: {
