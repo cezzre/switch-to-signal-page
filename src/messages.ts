@@ -47,4 +47,28 @@ export default {
       imageName: "NewProfilePicture",
     },
   },
+  fi: {
+    helpTheWorld:
+      "Auta maailmaa viestimään paremmin, <u>tietoturva ja yksityisyyden suoja edellä<u>.",
+    chooseSignal:
+      'Valitse <a href="https://signal.org/fi" target="_blank">Signal</a> ja <strong>aseta tämä profiili kuva<strong> auttaaksesi myös kavereitasi vaihtamaan.',
+    whoami:
+      "En ole kytköksissä Signal:iin, Olen vain kyllästynyt korporaatioihin, jotka myyvät dataani.",
+    buyMeARamen:
+      'Jos autoin, harkitse <a href="https://www.buymeacoffee.com/cezzre" title="Tarjoa Nuudeleita" target="_blank">nuudeli 🍜 lahjoitusta</a>.',
+    viewSource: "Näytä lähdekoodi Github:issa",
+    image: {
+      topText: "Lataa Signal",
+      bottomText: "signal.org",
+      topCopy: "Luo omasi",
+      bottomCopy: "signal.cezz.re",
+      downloadImageButton: "Lataa kuva",
+      invertColorsButton: "Negatiivi",
+      chooseCustomImage: "Muokkaa kuvaasi",
+      customiseText: "Paina muokataksesi tekstiä",
+      editTextTop: "Muokkaa ylätekstiä",
+      editTextBottom: "Muokkaa alatekstiä",
+      imageName: "NewProfilePicture",
+    },
+  },
 };
