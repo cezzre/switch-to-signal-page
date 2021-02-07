@@ -25,7 +25,7 @@ const langNames = langs.reduce((langNames, lang) => {
       ISO6391.getNativeName(lang),
     )} / ${ISO6391.getName(lang)}`,
   };
-}, {});
+}, {} as Record<string, string>);
 
 export default defineComponent({
   name: "LanguageSelect",
