@@ -71,4 +71,28 @@ export default {
       imageName: "NewProfilePicture",
     },
   },
+  es: {
+    helpTheWorld:
+      "Ayuda todo el mundo a elegir una app de chat que pone la <u>privacidad y seguridad en primer lugar</u>.",
+    chooseSignal:
+      'Cámbiate a <a href="https://signal.org" target="_blank">Signal</a> y <strong>pon esta foto del perfil en las otras app</strong> de chat para que ellos se unan también!',
+    whoami:
+      "No soy afiliado a Signal, solamente estoy cansado de ser el producto de empresas de dudosa moral.",
+    buyMeARamen:
+      'Si te he ayudado, que piensas en <a href="https://www.buymeacoffee.com/cezzre" title="Invitame un ramen" target="_blank">invitarme a un 🍜 ramen</a>?',
+    viewSource: "Ve la fuente en Github",
+    image: {
+      topText: "Descarga Signal",
+      bottomText: "en signal.org",
+      topCopy: "Crea tu imagen",
+      bottomCopy: "en signal.cezz.re",
+      downloadImageButton: "Descarga tu imagen",
+      invertColorsButton: "Invierte colores",
+      chooseCustomImage: "Personaliza tu imagen",
+      customiseText: "Toca para cambiar el texto",
+      editTextTop: "Personaliza el texto superior",
+      editTextBottom: "Personaliza el texto inferior",
+      imageName: "NuevaFotoPerfil",
+    },
+  },
 };
