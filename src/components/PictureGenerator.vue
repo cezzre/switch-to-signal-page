@@ -148,8 +148,8 @@ export default defineComponent({
   name: "PictureGenerator",
   data() {
     return {
-      textTop: this.$t("image.topText"),
-      textBottom: this.$t("image.bottomText"),
+      textTop: this.$t("image.alternativeTopText"),
+      textBottom: this.$t("image.alternativeBottomText"),
       colorAccent: "#3A76F0",
       colorBackground: "#FFFFFF",
       imageData: defaultImage,
@@ -169,8 +169,8 @@ export default defineComponent({
   },
   watch: {
     locale: function () {
-      this.textTop = this.$t("image.topText");
-      this.textBottom = this.$t("image.bottomText");
+      this.textTop = this.$t("image.alternativeTopText");
+      this.textBottom = this.$t("image.alternativeBottomText");
     },
   },
   methods: {

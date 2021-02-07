@@ -12,6 +12,8 @@ export default {
     image: {
       topText: "Scarica Signal",
       bottomText: "su signal.org",
+      alternativeTopText: "Scrivimi su Signal",
+      alternativeBottomText: "→ signal.org",
       topCopy: "Crea la tua immagine",
       bottomCopy: "su signal.cezz.re",
       downloadImageButton: "Scarica immagine",
@@ -36,6 +38,8 @@ export default {
     image: {
       topText: "Download Signal",
       bottomText: "on signal.org",
+      alternativeTopText: "Text me on Signal",
+      alternativeBottomText: "→ signal.org",
       topCopy: "Create yours",
       bottomCopy: "on signal.cezz.re",
       downloadImageButton: "Download image",
@@ -59,7 +63,9 @@ export default {
     viewSource: "Näytä lähdekoodi Github:issa",
     image: {
       topText: "Lataa Signal",
-      bottomText: "signal.org",
+      bottomText: "→ signal.org",
+      alternativeTopText: "Lataa Signal",
+      alternativeBottomText: "→ signal.org",
       topCopy: "Luo omasi",
       bottomCopy: "signal.cezz.re",
       downloadImageButton: "Lataa kuva",
@@ -84,6 +90,8 @@ export default {
     image: {
       topText: "Descarga Signal",
       bottomText: "en signal.org",
+      alternativeTopText: "Háblame por Signal",
+      alternativeBottomText: "→ signal.org",
       topCopy: "Crea tu imagen",
       bottomCopy: "en signal.cezz.re",
       downloadImageButton: "Descarga tu imagen",
