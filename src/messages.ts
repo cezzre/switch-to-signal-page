@@ -1,7 +1,7 @@
 export default {
   it: {
     helpTheWorld:
-      "Aiuta il mondo a scegliere un app di messaggistica che mette <u>privacy e sicurezza al primo posto</u>.",
+      "Aiuta il mondo a scegliere un'app di messaggistica che mette <u>privacy e sicurezza al primo posto</u>.",
     chooseSignal:
       'Passa a <a href="https://signal.org" target="_blank">Signal</a> e <strong>imposta questa immagine profilo</strong> sugli altri social per invogliare i tuoi contatti a fare lo stesso.',
     whoami:
