@@ -64,7 +64,7 @@ export default {
     image: {
       topText: "Lataa Signal",
       bottomText: "→ signal.org",
-      alternativeTopText: "Lataa Signal",
+      alternativeTopText: "Viestitä Signalissa",
       alternativeBottomText: "→ signal.org",
       topCopy: "Luo omasi",
       bottomCopy: "signal.cezz.re",
