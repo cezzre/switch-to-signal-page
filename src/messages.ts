@@ -38,6 +38,7 @@ export default {
     image: {
       topText: "Download Signal",
       bottomText: "on signal.org",
+      topTextFontSize: "250",
       alternativeTopText: "Text me on Signal",
       alternativeBottomText: "→ signal.org",
       topCopy: "Create yours",
@@ -153,6 +154,33 @@ export default {
       editTextTop: "Prilagodi gornji tekst",
       editTextBottom: "Prilagodi donji tekst",
       imageName: "NovaSlikaProfila",
+    },
+  },
+  de: {
+    helpTheWorld:
+      "Hilf der Welt zu einer besseren Nachrichten-App zu wechseln, die <u>Privatsphäre und Datensicherheit</u> an erste Stelle setzt.",
+    chooseSignal:
+      'Wähle <a href="https://signal.org/de" target="_blank">Signal</a> aus und <strong>verwende dieses Profilfoto</strong> um auch deine Freunde bei einem Umstieg zu unterstützen!',
+    whoami:
+      "Ich stehe in keiner Verbindung zu Signal. Ich bin nur jemand, der es Leid ist, dass Konzerne sich mit meinen Daten bereichern.",
+    buyMeARamen:
+      'Falls du diese Webseite nützlich findest, bitte mach mir mit <a href="https://www.buymeacoffee.com/cezzre" title="Kauf mir eine Schüssel Ramen" target="_blank">einer Schüssel Ramen 🍜</a> eine Freude.',
+    viewSource: "Gehe zu Quellcode auf Github",
+    image: {
+      topText: "Download Signal",
+      bottomText: "auf signal.org",
+      topTextFontSize: "230",
+      alternativeTopText: "Schreib mir auf Signal",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Mach dein Bild",
+      bottomCopy: "auf signal.cezz.re",
+      downloadImageButton: "Bild herunterladen",
+      invertColorsButton: "Farben invertieren",
+      chooseCustomImage: "Bild anpassen",
+      customiseText: "Klicke hier um Text anzupassen",
+      editTextTop: "Oberen Text editieren",
+      editTextBottom: "Unteren Text editieren",
+      imageName: "NeuesProfilFoto",
     },
   },
 };

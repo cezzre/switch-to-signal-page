@@ -93,7 +93,7 @@
           @click="editTextTop"
           font-family="Inter"
           font-weight="800"
-          font-size="250"
+          :font-size="$t('image.topTextFontSize')"
           letter-spacing="-10"
           dx="100"
           dy="10"
