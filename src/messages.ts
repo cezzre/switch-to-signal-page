@@ -103,4 +103,56 @@ export default {
       imageName: "NuevaFotoPerfil",
     },
   },
+  fr: {
+    helpTheWorld:
+      "Aidez le monde en donnant la priorité à votre <u>vie privée et à la sécurité de vos données</u>.",
+    chooseSignal:
+      'Téléchargez <a href="https://signal.org" target="_blank">Signal</a> et <strong>choisissez votre photo de profil</strong> afin d\'aider vos connaissances à vous retrouver sur la plateforme.',
+    whoami:
+      "Ce projet est indépendant, je ne suis en aucune manière affilié à Signal.<br>Je suis juste une personne fatiguée de voir mes données exploitées par des entreprises à mon insu.",
+    buyMeARamen:
+      'Si ce projet vous a été utile, vous pouvez aussi <a href="https://www.buymeacoffee.com/cezzre" title="Offrez-moi un ramen" target="_blank">me payer des 🍜 ramen</a>.',
+    viewSource: "Voir le code source sur GitHub",
+    image: {
+      topText: "Télécharger Signal",
+      bottomText: "sur signal.org",
+      alternativeTopText: "Je suis sur Signal",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Créer votre profil",
+      bottomCopy: "avec signal.cezz.re",
+      downloadImageButton: "Soumettre une image",
+      invertColorsButton: "Inverser les couleurs",
+      chooseCustomImage: "Personnaliser l'image",
+      customiseText: "Cliquer ici pour personnaliser le texte",
+      editTextTop: "Mettre à jour le texte du haut",
+      editTextBottom: "Mettre à jour le texte du bas",
+      imageName: "NouvellePhotoDeProfil",
+    },
+  },
+  hr: {
+    helpTheWorld:
+      "Pomozi svijetu da odabere aplikaciju za razmjenu poruka koja <u>privatnost i sigurnost stavlja na prvo mjesto</u>.",
+    chooseSignal:
+      'Idite na <a href="https://signal.org/hr" target="_blank">Signal</a> i <strong>postavite ovu sliku profila na drugim društvenim mrežama</strong> kako biste potaknuli svoje kontakte da učine isto.',
+    whoami:
+      "Nisam povezan sa Signal, samo sam umoran od toga da sam proizvod tvrtki od sumnjivog morala.",
+    buyMeARamen:
+      'Ako sam bio od bilo kakve pomoći, što kažeš na <a href="https://www.buymeacoffee.com/cezzre" title="Daj mi ramen" target="_blank">daj mi 🍜 ramen</a>?',
+    viewSource: "Pogledajte izvor na Githubu",
+    image: {
+      topText: "Preuzmi Signal",
+      bottomText: "na signal.org",
+      alternativeTopText: "Piši mi na Signal",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Stvorite svoju sliku",
+      bottomCopy: "na signal.cezz.re",
+      downloadImageButton: "Preuzmi sliku",
+      invertColorsButton: "Obrni boje",
+      chooseCustomImage: "Prilagodi sliku",
+      customiseText: "Kliknite za prilagodbu teksta",
+      editTextTop: "Prilagodi gornji tekst",
+      editTextBottom: "Prilagodi donji tekst",
+      imageName: "NovaSlikaProfila",
+    },
+  },
 };
