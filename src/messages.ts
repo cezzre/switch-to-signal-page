@@ -183,4 +183,30 @@ export default {
       imageName: "NeuesProfilFoto",
     },
   },
+  nl: {
+    helpTheWorld:
+      "Help de wereld om over te schakelen naar een betere messenger die <u>privacy en veiligheid voorop stelt</u>.",
+    chooseSignal:
+      'Kies <a href="https://signal.org/nl" target="_blank">Signal</a> en <strong>verander je profielfoto</strong> om je vrienden aan te moedigen ook te switchen.',
+    whoami:
+      "Ik werk niet voor Signal, ik ben gewoon iemand die het beu is dat bedrijven van mijn gegevens profiteren.",
+    buyMeARamen:
+      'Vond je dit nuttig, overweeg dan <a href="https://www.buymeacoffee.com/cezzre" title="Koop me een ramen" target="_blank">om me een 🍜 ramen te kopen</a>.',
+    viewSource: "View source on Github",
+    image: {
+      topText: "Download Signal",
+      bottomText: "on signal.org",
+      alternativeTopText: "Text me on Signal",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Create yours",
+      bottomCopy: "on signal.cezz.re",
+      downloadImageButton: "Download image",
+      invertColorsButton: "Invert colours",
+      chooseCustomImage: "Customise image",
+      customiseText: "Click to customise text",
+      editTextTop: "Edit top text",
+      editTextBottom: "Edit bottom text",
+      imageName: "NewProfilePicture",
+    },
+  },
 };
