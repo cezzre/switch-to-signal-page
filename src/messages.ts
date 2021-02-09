@@ -209,4 +209,31 @@ export default {
       imageName: "NewProfilePicture",
     },
   },
+  pt: {
+    helpTheWorld:
+      "Ajuda o mundo a mudar a um mensageiro instantâneo que faz prevalecer a <u>privacidade e a seguridade</u>.",
+    chooseSignal:
+      'Muda para <a href="https://signal.org/pt_PT" target="_blank">Signal</a> e <strong>coloca esta foto do perfil nos tes outros aplicativos</strong> para ajudar os teus amigos a mudar também!',
+    whoami:
+      "Nao estou associado a Signal, só estou de saco cheio das empresas usando os meus dados.",
+    buyMeARamen:
+      'Se eu fui útil, <a href="https://www.buymeacoffee.com/cezzre" title="Convidar-me a um ramen" target="_blank">podes convidar-me a um 🍜 ramen</a>.',
+    viewSource: "Ve a fonte no Github",
+    image: {
+      topText: "Baixa Signal",
+      bottomText: "en signal.org",
+      topTextFontSize: "230",
+      alternativeTopText: "Fala comigo en Signal",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Cria a tua imagen",
+      bottomCopy: "en signal.cezz.re",
+      downloadImageButton: "Baixa a tua imagen",
+      invertColorsButton: "Inverte as cores",
+      chooseCustomImage: "Personaliza a tua imagen",
+      customiseText: "Clica para personalizar o teu texto",
+      editTextTop: "Personaliza o texto superior",
+      editTextBottom: "Personaliza o texto inferior",
+      imageName: "NovaFotoPerfil",
+    },
+  },
 };
