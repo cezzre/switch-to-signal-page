@@ -236,4 +236,31 @@ export default {
       imageName: "NovaFotoPerfil",
     },
   },
+  ja: {
+    helpTheWorld:
+      "プライバシーと安全性を第一に考えたメッセージアプリを使ってみませんか？",
+    chooseSignal:
+      '<a href="https://signal.org/ja" target="_blank">Signal</a>を選ぼう。このプロフィール画像を投稿しましょう。あなたの友人にも使うことを勧めてみてください。',
+    whoami:
+      "「Signal」を使うことを強制しているのではないのです。だた私は、SNS上で行われるデータマイニングにこれ以上加担したくないだけなのです。",
+    buyMeARamen:
+      'もし私のこの勧めがあなたの役に立ったときには、<a href="https://www.buymeacoffee.com/cezzre" title="ラーメンをご馳走してください" target="_blank">🍜 私にラーメンをご馳走してください</a>。',
+    viewSource: "Githubでソースコードを表示する",
+    image: {
+      topText: "Signalをダウンロードしてみましょう",
+      bottomText: "→ signal.org",
+      topTextFontSize: "170",
+      alternativeTopText: "Signalでメッセージをください",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "signal.cezz.reで",
+      bottomCopy: "あなた自身を創造しよう",
+      downloadImageButton: "イメージをダウンロードする",
+      invertColorsButton: "インバートカラー",
+      chooseCustomImage: "カスタムイメージを選ぶ",
+      customiseText: "カスタマイズテキストをクリックする",
+      editTextTop: "テキストの先頭を編集する",
+      editTextBottom: "テキストの最後を編集する",
+      imageName: "NewProfilePicture",
+    },
+  },
 };
