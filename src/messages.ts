@@ -238,16 +238,16 @@ export default {
   },
   ja: {
     helpTheWorld:
-      "プライバシーと安全性を第一に考えたメッセージアプリを使ってみませんか？",
+      "世界中の1人でも多くの人に、プライバシーと安全性を第一に考えたメッセージアプリを使って欲しいから。どうか、あなたの力を貸してください。",
     chooseSignal:
-      '<a href="https://signal.org/ja" target="_blank">Signal</a>を選ぼう。このプロフィール画像を投稿しましょう。あなたの友人にも使うことを勧めてみてください。',
+      '<a href="https://signal.org/ja" target="_blank">Signal</a>を選ぶ。そして、このプロフィール画像をいろいろなところに投稿してみてください。きっと、あなたの友人も興味を持ってくれるはず。',
     whoami:
-      "「Signal」を使うことを強制しているのではないのです。だた私は、SNS上で行われるデータマイニングにこれ以上加担したくないだけなのです。",
+      "私は「Signal」を使うことを強制しているのではありません。私はただ、SNSを介したデータマイニングにこれ以上加担したくないだけなのです。",
     buyMeARamen:
-      'もし私のこの勧めがあなたの役に立ったときには、<a href="https://www.buymeacoffee.com/cezzre" title="ラーメンをご馳走してください" target="_blank">🍜 私にラーメンをご馳走してください</a>。',
+      'もしあなたの役に立ったなら、私に <a href="https://www.buymeacoffee.com/cezzre" title="ラーメンをご馳走してください" target="_blank">🍜 コーヒーをご馳走してください</a>。',
     viewSource: "Githubでソースコードを表示する",
     image: {
-      topText: "Signalをダウンロードしてみましょう",
+      topText: "Signalでメッセージをください",
       bottomText: "→ signal.org",
       topTextFontSize: "170",
       alternativeTopText: "Signalでメッセージをください",
