@@ -7,7 +7,7 @@ export default {
     whoami:
       "Non sono affiliato a Signal, sono solo stanco di essere il prodotto di aziende di dubbia moralità.",
     buyMeARamen:
-      'Se ti sono stato d\'aiuto, che ne dici di <a href="https://www.buymeacoffee.com/cezzre" title="Regalami un ramen" target="_blank">regalarmi un 🍜 ramen</a>?',
+      'Se ti sono stato d\'aiuto, che ne dici di <a href="https://liberapay.com/cezzre/donate" title="Regalami un ramen" target="_blank">regalarmi un 🍜 ramen</a>?',
     viewSource: "Vedi il sorgente su Github",
     image: {
       topText: "Scarica Signal",
@@ -33,7 +33,7 @@ export default {
     whoami:
       "I'm not affiliated with Signal, I'm just a person tired of corporates mining on my data.",
     buyMeARamen:
-      'If I was helpful, please consider <a href="https://www.buymeacoffee.com/cezzre" title="Buy me a ramen" target="_blank">buying me a 🍜 ramen</a>.',
+      'If I was helpful, please consider <a href="https://liberapay.com/cezzre/donate" title="Buy me a ramen" target="_blank">buying me a 🍜 ramen</a>.',
     viewSource: "View source on Github",
     image: {
       topText: "Download Signal",
@@ -60,7 +60,7 @@ export default {
     whoami:
       "En ole kytköksissä Signal:iin, Olen vain kyllästynyt korporaatioihin, jotka myyvät dataani.",
     buyMeARamen:
-      'Jos autoin, harkitse <a href="https://www.buymeacoffee.com/cezzre" title="Tarjoa Nuudeleita" target="_blank">nuudeli 🍜 lahjoitusta</a>.',
+      'Jos autoin, harkitse <a href="https://liberapay.com/cezzre/donate" title="Tarjoa Nuudeleita" target="_blank">nuudeli 🍜 lahjoitusta</a>.',
     viewSource: "Näytä lähdekoodi Github:issa",
     image: {
       topText: "Lataa Signal",
@@ -86,7 +86,7 @@ export default {
     whoami:
       "No soy afiliado a Signal, solamente estoy cansado de ser el producto de empresas de dudosa moral.",
     buyMeARamen:
-      'Si te he ayudado, que piensas en <a href="https://www.buymeacoffee.com/cezzre" title="Invitame un ramen" target="_blank">invitarme a un 🍜 ramen</a>?',
+      'Si te he ayudado, que piensas en <a href="https://liberapay.com/cezzre/donate" title="Invitame un ramen" target="_blank">invitarme a un 🍜 ramen</a>?',
     viewSource: "Ve la fuente en Github",
     image: {
       topText: "Descarga Signal",
@@ -112,7 +112,7 @@ export default {
     whoami:
       "Ce projet est indépendant, je ne suis en aucune manière affilié à Signal.<br>Je suis juste une personne fatiguée de voir mes données exploitées par des entreprises à mon insu.",
     buyMeARamen:
-      'Si ce projet vous a été utile, vous pouvez aussi <a href="https://www.buymeacoffee.com/cezzre" title="Offrez-moi un ramen" target="_blank">me payer des 🍜 ramen</a>.',
+      'Si ce projet vous a été utile, vous pouvez aussi <a href="https://liberapay.com/cezzre/donate" title="Offrez-moi un ramen" target="_blank">me payer des 🍜 ramen</a>.',
     viewSource: "Voir le code source sur GitHub",
     image: {
       topText: "Télécharger Signal",
@@ -138,7 +138,7 @@ export default {
     whoami:
       "Nisam povezan sa Signal, samo sam umoran od toga da sam proizvod tvrtki od sumnjivog morala.",
     buyMeARamen:
-      'Ako sam bio od bilo kakve pomoći, što kažeš na <a href="https://www.buymeacoffee.com/cezzre" title="Daj mi ramen" target="_blank">daj mi 🍜 ramen</a>?',
+      'Ako sam bio od bilo kakve pomoći, što kažeš na <a href="https://liberapay.com/cezzre/donate" title="Daj mi ramen" target="_blank">daj mi 🍜 ramen</a>?',
     viewSource: "Pogledajte izvor na Githubu",
     image: {
       topText: "Preuzmi Signal",
@@ -164,7 +164,7 @@ export default {
     whoami:
       "Ich stehe in keiner Verbindung zu Signal. Ich bin nur jemand, der es Leid ist, dass Konzerne sich mit meinen Daten bereichern.",
     buyMeARamen:
-      'Falls du diese Webseite nützlich findest, bitte mach mir mit <a href="https://www.buymeacoffee.com/cezzre" title="Kauf mir eine Schüssel Ramen" target="_blank">einer Schüssel Ramen 🍜</a> eine Freude.',
+      'Falls du diese Webseite nützlich findest, bitte mach mir mit <a href="https://liberapay.com/cezzre/donate" title="Kauf mir eine Schüssel Ramen" target="_blank">einer Schüssel Ramen 🍜</a> eine Freude.',
     viewSource: "Gehe zu Quellcode auf Github",
     image: {
       topText: "Download Signal",
@@ -191,7 +191,7 @@ export default {
     whoami:
       "Ik werk niet voor Signal, ik ben gewoon iemand die het beu is dat bedrijven van mijn gegevens profiteren.",
     buyMeARamen:
-      'Vond je dit nuttig, overweeg dan <a href="https://www.buymeacoffee.com/cezzre" title="Koop me een ramen" target="_blank">om me een 🍜 ramen te kopen</a>.',
+      'Vond je dit nuttig, overweeg dan <a href="https://liberapay.com/cezzre/donate" title="Koop me een ramen" target="_blank">om me een 🍜 ramen te kopen</a>.',
     viewSource: "View source on Github",
     image: {
       topText: "Download Signal",
@@ -217,7 +217,7 @@ export default {
     whoami:
       "Nao estou associado a Signal, só estou de saco cheio das empresas usando os meus dados.",
     buyMeARamen:
-      'Se eu fui útil, <a href="https://www.buymeacoffee.com/cezzre" title="Convidar-me a um ramen" target="_blank">podes convidar-me a um 🍜 ramen</a>.',
+      'Se eu fui útil, <a href="https://liberapay.com/cezzre/donate" title="Convidar-me a um ramen" target="_blank">podes convidar-me a um 🍜 ramen</a>.',
     viewSource: "Ve a fonte no Github",
     image: {
       topText: "Baixa Signal",
@@ -244,7 +244,7 @@ export default {
     whoami:
       "私は「Signal」を使うことを強制しているのではありません。私はただ、SNSを介したデータマイニングにこれ以上加担したくないだけなのです。",
     buyMeARamen:
-      'もしあなたの役に立ったなら、私に <a href="https://www.buymeacoffee.com/cezzre" title="ラーメンをご馳走してください" target="_blank">🍜 コーヒーをご馳走してください</a>。',
+      'もしあなたの役に立ったなら、私に <a href="https://liberapay.com/cezzre/donate" title="ラーメンをご馳走してください" target="_blank">🍜 コーヒーをご馳走してください</a>。',
     viewSource: "Githubでソースコードを表示する",
     image: {
       topText: "Signalでメッセージをください",
