@@ -263,4 +263,30 @@ export default {
       imageName: "NewProfilePicture",
     },
   },
+  zh: {
+    helpTheWorld:
+      "使用<u>隱私與資安</u>優先的通訊軟體，改善全世界的交流！",
+    chooseSignal:
+    '加入<a href="https://signal.org" target="_blank">Signal</a>並在您原本的通訊軟體換上<strong>此相框</strong>，讓您的朋友看見改變的機會！',
+    whoami:
+    "本人與Signal並無營利關係，只是厭倦了配合企業搜集個資的一般用戶",
+    buyMeARamen:
+    '若這個服務有幫助到您，請考慮<a href="https://liberapay.com/cezzre/donate" title="請我吃拉麵" target="_blank">送一碗拉麵🍜來支持我</a>',
+    viewSource: "在Github查看原始碼",
+    image: {
+      topText: "下載Signal",
+      bottomText: "on signal.org",
+      topTextFontSize: "250",
+      alternativeTopText: "請在Signal聯絡我",
+      alternativeBottomText: "→ signal.org",
+      topCopy: "Create yours",
+      bottomCopy: "on signal.cezz.re",
+      downloadImageButton: "下載照片",
+      invertColorsButton: "反轉背景顏色",
+      chooseCustomImage: "上傳照片",
+      customiseText: "變更文字",
+      editTextTop: "變更上方文字",
+      editTextBottom: "變更下方文字",
+      imageName: "NewProfilePicture",
+  },
 };
